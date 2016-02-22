@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF85F6541C7AB3BA003B51E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85F6531C7AB3BA003B51E0 /* AppDelegate.swift */; };
+		BF85F6561C7AB3BA003B51E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85F6551C7AB3BA003B51E0 /* ViewController.swift */; };
+		BF85F6591C7AB3BA003B51E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF85F6571C7AB3BA003B51E0 /* Main.storyboard */; };
+		BF85F65B1C7AB3BA003B51E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF85F65A1C7AB3BA003B51E0 /* Assets.xcassets */; };
+		BF85F65E1C7AB3BB003B51E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF85F65C1C7AB3BA003B51E0 /* LaunchScreen.storyboard */; };
+		BF85F6691C7AB3BB003B51E0 /* GoogleImagePrinterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85F6681C7AB3BB003B51E0 /* GoogleImagePrinterTests.swift */; };
+		BF85F6741C7AB3BB003B51E0 /* GoogleImagePrinterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85F6731C7AB3BB003B51E0 /* GoogleImagePrinterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF85F6651C7AB3BB003B51E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF85F6481C7AB3BA003B51E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF85F64F1C7AB3BA003B51E0;
+			remoteInfo = GoogleImagePrinter;
+		};
+		BF85F6701C7AB3BB003B51E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF85F6481C7AB3BA003B51E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF85F64F1C7AB3BA003B51E0;
+			remoteInfo = GoogleImagePrinter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF85F6501C7AB3BA003B51E0 /* GoogleImagePrinter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleImagePrinter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF85F6531C7AB3BA003B51E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF85F6551C7AB3BA003B51E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF85F6581C7AB3BA003B51E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF85F65A1C7AB3BA003B51E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF85F65D1C7AB3BA003B51E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF85F65F1C7AB3BB003B51E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF85F6641C7AB3BB003B51E0 /* GoogleImagePrinterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleImagePrinterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF85F6681C7AB3BB003B51E0 /* GoogleImagePrinterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleImagePrinterTests.swift; sourceTree = "<group>"; };
+		BF85F66A1C7AB3BB003B51E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF85F66F1C7AB3BB003B51E0 /* GoogleImagePrinterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleImagePrinterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF85F6731C7AB3BB003B51E0 /* GoogleImagePrinterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleImagePrinterUITests.swift; sourceTree = "<group>"; };
+		BF85F6751C7AB3BB003B51E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF85F64D1C7AB3BA003B51E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85F6611C7AB3BB003B51E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85F66C1C7AB3BB003B51E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF85F6471C7AB3BA003B51E0 = {
+			isa = PBXGroup;
+			children = (
+				BF85F6521C7AB3BA003B51E0 /* GoogleImagePrinter */,
+				BF85F6671C7AB3BB003B51E0 /* GoogleImagePrinterTests */,
+				BF85F6721C7AB3BB003B51E0 /* GoogleImagePrinterUITests */,
+				BF85F6511C7AB3BA003B51E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF85F6511C7AB3BA003B51E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF85F6501C7AB3BA003B51E0 /* GoogleImagePrinter.app */,
+				BF85F6641C7AB3BB003B51E0 /* GoogleImagePrinterTests.xctest */,
+				BF85F66F1C7AB3BB003B51E0 /* GoogleImagePrinterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF85F6521C7AB3BA003B51E0 /* GoogleImagePrinter */ = {
+			isa = PBXGroup;
+			children = (
+				BF85F6531C7AB3BA003B51E0 /* AppDelegate.swift */,
+				BF85F6551C7AB3BA003B51E0 /* ViewController.swift */,
+				BF85F6571C7AB3BA003B51E0 /* Main.storyboard */,
+				BF85F65A1C7AB3BA003B51E0 /* Assets.xcassets */,
+				BF85F65C1C7AB3BA003B51E0 /* LaunchScreen.storyboard */,
+				BF85F65F1C7AB3BB003B51E0 /* Info.plist */,
+			);
+			path = GoogleImagePrinter;
+			sourceTree = "<group>";
+		};
+		BF85F6671C7AB3BB003B51E0 /* GoogleImagePrinterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF85F6681C7AB3BB003B51E0 /* GoogleImagePrinterTests.swift */,
+				BF85F66A1C7AB3BB003B51E0 /* Info.plist */,
+			);
+			path = GoogleImagePrinterTests;
+			sourceTree = "<group>";
+		};
+		BF85F6721C7AB3BB003B51E0 /* GoogleImagePrinterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF85F6731C7AB3BB003B51E0 /* GoogleImagePrinterUITests.swift */,
+				BF85F6751C7AB3BB003B51E0 /* Info.plist */,
+			);
+			path = GoogleImagePrinterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF85F64F1C7AB3BA003B51E0 /* GoogleImagePrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF85F6781C7AB3BB003B51E0 /* Build configuration list for PBXNativeTarget "GoogleImagePrinter" */;
+			buildPhases = (
+				BF85F64C1C7AB3BA003B51E0 /* Sources */,
+				BF85F64D1C7AB3BA003B51E0 /* Frameworks */,
+				BF85F64E1C7AB3BA003B51E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleImagePrinter;
+			productName = GoogleImagePrinter;
+			productReference = BF85F6501C7AB3BA003B51E0 /* GoogleImagePrinter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF85F6631C7AB3BB003B51E0 /* GoogleImagePrinterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF85F67B1C7AB3BB003B51E0 /* Build configuration list for PBXNativeTarget "GoogleImagePrinterTests" */;
+			buildPhases = (
+				BF85F6601C7AB3BB003B51E0 /* Sources */,
+				BF85F6611C7AB3BB003B51E0 /* Frameworks */,
+				BF85F6621C7AB3BB003B51E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF85F6661C7AB3BB003B51E0 /* PBXTargetDependency */,
+			);
+			name = GoogleImagePrinterTests;
+			productName = GoogleImagePrinterTests;
+			productReference = BF85F6641C7AB3BB003B51E0 /* GoogleImagePrinterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF85F66E1C7AB3BB003B51E0 /* GoogleImagePrinterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF85F67E1C7AB3BB003B51E0 /* Build configuration list for PBXNativeTarget "GoogleImagePrinterUITests" */;
+			buildPhases = (
+				BF85F66B1C7AB3BB003B51E0 /* Sources */,
+				BF85F66C1C7AB3BB003B51E0 /* Frameworks */,
+				BF85F66D1C7AB3BB003B51E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF85F6711C7AB3BB003B51E0 /* PBXTargetDependency */,
+			);
+			name = GoogleImagePrinterUITests;
+			productName = GoogleImagePrinterUITests;
+			productReference = BF85F66F1C7AB3BB003B51E0 /* GoogleImagePrinterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF85F6481C7AB3BA003B51E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Vincent;
+				TargetAttributes = {
+					BF85F64F1C7AB3BA003B51E0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BF85F6631C7AB3BB003B51E0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BF85F64F1C7AB3BA003B51E0;
+					};
+					BF85F66E1C7AB3BB003B51E0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BF85F64F1C7AB3BA003B51E0;
+					};
+				};
+			};
+			buildConfigurationList = BF85F64B1C7AB3BA003B51E0 /* Build configuration list for PBXProject "GoogleImagePrinter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF85F6471C7AB3BA003B51E0;
+			productRefGroup = BF85F6511C7AB3BA003B51E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF85F64F1C7AB3BA003B51E0 /* GoogleImagePrinter */,
+				BF85F6631C7AB3BB003B51E0 /* GoogleImagePrinterTests */,
+				BF85F66E1C7AB3BB003B51E0 /* GoogleImagePrinterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF85F64E1C7AB3BA003B51E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85F65E1C7AB3BB003B51E0 /* LaunchScreen.storyboard in Resources */,
+				BF85F65B1C7AB3BA003B51E0 /* Assets.xcassets in Resources */,
+				BF85F6591C7AB3BA003B51E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85F6621C7AB3BB003B51E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85F66D1C7AB3BB003B51E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF85F64C1C7AB3BA003B51E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85F6561C7AB3BA003B51E0 /* ViewController.swift in Sources */,
+				BF85F6541C7AB3BA003B51E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85F6601C7AB3BB003B51E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85F6691C7AB3BB003B51E0 /* GoogleImagePrinterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85F66B1C7AB3BB003B51E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85F6741C7AB3BB003B51E0 /* GoogleImagePrinterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF85F6661C7AB3BB003B51E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF85F64F1C7AB3BA003B51E0 /* GoogleImagePrinter */;
+			targetProxy = BF85F6651C7AB3BB003B51E0 /* PBXContainerItemProxy */;
+		};
+		BF85F6711C7AB3BB003B51E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF85F64F1C7AB3BA003B51E0 /* GoogleImagePrinter */;
+			targetProxy = BF85F6701C7AB3BB003B51E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF85F6571C7AB3BA003B51E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF85F6581C7AB3BA003B51E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF85F65C1C7AB3BA003B51E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF85F65D1C7AB3BA003B51E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF85F6761C7AB3BB003B51E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF85F6771C7AB3BB003B51E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF85F6791C7AB3BB003B51E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleImagePrinter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCible.GoogleImagePrinter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF85F67A1C7AB3BB003B51E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleImagePrinter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCible.GoogleImagePrinter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF85F67C1C7AB3BB003B51E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleImagePrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCible.GoogleImagePrinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleImagePrinter.app/GoogleImagePrinter";
+			};
+			name = Debug;
+		};
+		BF85F67D1C7AB3BB003B51E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleImagePrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCible.GoogleImagePrinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleImagePrinter.app/GoogleImagePrinter";
+			};
+			name = Release;
+		};
+		BF85F67F1C7AB3BB003B51E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoogleImagePrinterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCible.GoogleImagePrinterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoogleImagePrinter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF85F6801C7AB3BB003B51E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoogleImagePrinterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iCible.GoogleImagePrinterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoogleImagePrinter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF85F64B1C7AB3BA003B51E0 /* Build configuration list for PBXProject "GoogleImagePrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85F6761C7AB3BB003B51E0 /* Debug */,
+				BF85F6771C7AB3BB003B51E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF85F6781C7AB3BB003B51E0 /* Build configuration list for PBXNativeTarget "GoogleImagePrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85F6791C7AB3BB003B51E0 /* Debug */,
+				BF85F67A1C7AB3BB003B51E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF85F67B1C7AB3BB003B51E0 /* Build configuration list for PBXNativeTarget "GoogleImagePrinterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85F67C1C7AB3BB003B51E0 /* Debug */,
+				BF85F67D1C7AB3BB003B51E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF85F67E1C7AB3BB003B51E0 /* Build configuration list for PBXNativeTarget "GoogleImagePrinterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85F67F1C7AB3BB003B51E0 /* Debug */,
+				BF85F6801C7AB3BB003B51E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF85F6481C7AB3BA003B51E0 /* Project object */;
+}
